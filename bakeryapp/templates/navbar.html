@@ -12,11 +12,11 @@
     
         <nav>
             <ul>
-                <li class="brand"> <a href="">Paul's Bakery</a></li>
-                <li> <a href=""> Contact Us</a></li>
+                <li class="brand"> <a href="{% url 'home_page'%}">Paul's Bakery</a></li>
+                <li> <a href="{% url 'contact'%}"> Contact Us</a></li>
                 <li> <a href="">Menu & Recipes</a> </li>
                 <li> <a href="">Place an Order</a> </li>
-                <li> <a href="">Home</a> </li>
+                <li> <a href="{% url 'home_page'%}">Home</a> </li>
 
             </ul>
         </nav>
