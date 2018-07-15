@@ -1,0 +1,152 @@
+/* font-family: 'Pacifico', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Anonymous Pro', monospace; */
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Anonymous Pro', monospace;
+
+}
+html{
+    min-height: 100%;
+    position: relative;
+}
+body{
+    /* margin: 0 0 90px; bottom = footer height */
+}
+
+
+header{
+    background-image:url('https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size:cover;
+    height:100vh;
+    background-repeat:no-repeat;
+    margin:0;
+    margin-top: -2%;
+    color:white;
+}
+ul{
+    
+    padding-top:2%;
+    
+}
+nav li a{
+    color:white;
+    text-decoration: none;
+}
+nav a:hover{
+    color:white;
+    text-decoration: none;
+    border-top:2px solid white;
+    padding-top:5%;
+    border-bottom:2px solid white;
+    padding-bottom:5%;
+    transition: all .3s ease-in-out;
+}
+.brand a:hover{
+    border:0px;
+}
+nav li{
+    list-style:none;
+    float:right;
+    padding:2%;
+    
+}
+.brand{
+    font-weight: bolder;
+    text-transform: uppercase;
+    float:left;
+    font-size:140%;
+    
+}
+.intro h1, .menu h1{
+    clear:both;
+    text-align:center;
+    
+}
+.intro p{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    line-height: 120%;
+    padding-top:2%;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+}
+.about_us{
+    height:40vh;
+    padding:3%;
+}
+form{
+    text-align:center;
+    width:auto;
+    margin-left:auto;
+    margin-right: auto;
+    padding:2%;
+    
+}
+form input[type=submit]{
+    background:black;
+    color:white;
+    border:0;
+    width:15%;
+    padding:1%;
+    border-radius:5%;
+   
+}
+form input[type=text], input[type=email]{
+    font-size:100%;
+    margin-bottom:2%;
+    width:30%;
+    padding:1%;
+}
+.menu{
+    padding-top: 3%;
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+.Flavour{
+    width:30%;
+    margin:2%;
+    float:left;
+    padding-top:3%;
+    background:#F0EFF5;
+    padding:3%;
+    margin-left: 7%;
+    height: 50%;
+    text-align: center;
+    
+    
+}
+.menu img{
+    width:100%;
+    padding:0;
+    margin:0;
+    
+    
+}
+footer{
+    clear:both;
+    text-align: center;
+    padding:2%;
+    line-height: 150%;
+    background:black;
+    color:white;
+    padding:3%;
+  
+}
+.contact{
+    height: 100vh;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding:3%;
+    
+}
+
+ 
+
