@@ -24,20 +24,20 @@ header{
     margin-top: -2%;
     color:white;
 }
-.phone_header{
+.phone_header,.phone, .navbackground{
     display:none;
 }
 
-ul{
+nav ul{
     
     padding-top:2%;
     
 }
-nav li a{
+.laptop li a{
     color:white;
     text-decoration: none;
 }
-nav a:hover{
+.laptop a:hover{
     color:white;
     text-decoration: none;
     border-top:2px solid white;
@@ -62,6 +62,7 @@ nav a:hover{
     font-size:140%;
     
 }
+
 .intro h1, .menu h1{
     clear:both;
     text-align:center;
@@ -173,20 +174,47 @@ footer{
     .phone_header{
         display:block;
     }
-    ion-icon{
+    .menubutton{
         font-size:300%;
         position: absolute;
         left:2%;
         top:.5%;
     }
+    .closemenu{
+        font-size:300%;
+        position: absolute;
+        left:2%;
+        top:.5%;
+    }
+    .navbackground{
+        height:70vh;
+        background: black;
+        opacity: .5;
+        display:none;
+
+    }
     .laptop{
         display:none;
     }
+    .phone{
+        position: absolute;
+        left:7%;
+        top:1%;
+        width:80%;
+        text-align: center;
+        z-index: 5;
+    }
     .phone li a{
         color:white;
+        text-decoration: none;
+        
     }
     .phone li{
-        display:inline;
+        line-height: 300%;
+        margin: 8%;
+        z-index: 2;
+        list-style-type: none;
+       
     }
     footer{
         background: yellow;
