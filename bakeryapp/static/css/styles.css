@@ -6,6 +6,7 @@ font-family: 'Anonymous Pro', monospace; */
     padding:0;
     margin:0;
     font-family: 'Anonymous Pro', monospace;
+    
 
 }
 html{
@@ -23,6 +24,10 @@ header{
     margin-top: -2%;
     color:white;
 }
+.phone_header{
+    display:none;
+}
+
 ul{
     
     padding-top:2%;
@@ -44,13 +49,13 @@ nav a:hover{
 .brand a:hover{
     border:0px;
 }
-nav li{
+.laptop li{
     list-style:none;
     float:right;
     padding:2%;
     
 }
-.brand{
+.laptop .brand{
     font-weight: bolder;
     text-transform: uppercase;
     float:left;
@@ -145,5 +150,46 @@ footer{
     
 }
 
- 
 
+ 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    *{
+        font-size:100%;
+    }
+    header{
+        height: 70vh;
+        width:100vw;
+        font-size:70%;
+    }
+    header h1{
+        
+        width:60%;
+        margin-left:auto;
+        margin-right:auto;
+        padding-top:60%;
+        font-size:200%;
+    }
+    .phone_header{
+        display:block;
+    }
+    ion-icon{
+        font-size:300%;
+        position: absolute;
+        left:2%;
+        top:.5%;
+    }
+    .laptop{
+        display:none;
+    }
+    .phone li a{
+        color:white;
+    }
+    .phone li{
+        display:inline;
+    }
+    footer{
+        background: yellow;
+    }
+    } 
+    
