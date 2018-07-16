@@ -171,6 +171,10 @@ footer{
         padding-top:60%;
         font-size:200%;
     }
+    header small{
+        margin-left:30%;
+        
+    }
     .phone_header{
         display:block;
     }
@@ -183,7 +187,7 @@ footer{
     .closemenu{
         font-size:300%;
         position: absolute;
-        left:2%;
+        left:3%;
         top:.5%;
     }
     .navbackground{
@@ -202,7 +206,7 @@ footer{
         top:1%;
         width:80%;
         text-align: center;
-        z-index: 5;
+        z-index: 2;
     }
     .phone li a{
         color:white;
@@ -216,8 +220,38 @@ footer{
         list-style-type: none;
        
     }
+    .about_us{
+        margin-bottom:5%;
+    }
+    .intro{
+        padding:3%;
+    }
+    .intro p{
+        width:100%;
+        
+    }
+    form{
+        padding:1%;
+    }
+    form input[type=text],input[type=email]{
+        width:60%;
+        
+    }
+    form input[type=submit]{
+        width:40%;
+    }
+    .Flavour{
+        width:90%;
+        margin-left:0%;
+        padding:5%;
+        margin-bottom:9%;
+    }
+    .menu h1{
+        font-size: 150%;
+
+    }
     footer{
-        background: yellow;
+        padding:10%;
     }
     } 
     
